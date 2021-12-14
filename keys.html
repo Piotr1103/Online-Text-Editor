@@ -1,0 +1,550 @@
+<div id="cr" class="unc">
+	<button style="font-size:10px;cursor:pointer" onclick="openCNav()">&#9776;HTML實體鍵盤</button>
+</div>
+<div id="cn" class="unc" style="visibility: hidden;">
+	<div align="right" class="unc">
+		<button href="javascript:void(0)" class="closebtn" onclick="closeCNav()">
+		<i class="fa fa-remove"></i>
+		</button>
+	</div>
+	<br>
+	<button id="bq" title="Alt + Q" onclick="addCircum('blockquote')">Blockquote</button>
+	<button id="p" title="Alt + P" onclick="addCircum('p')">P</button>
+	<button id="div" title="Alt + G" onclick="addCircum('div')">Div</button>
+	<button id="span" onclick="addCircum('span')">Span</button>
+	<button id="font" title="Alt + F" onclick="addCircum('font')">Font</button>
+	<button id="url" onclick="addU()">Url</button>
+	<button id="unl" title="Alt + U" onclick="addCircum('ul')">Ul</button>
+	<button id="orl" title="Alt + O" onclick="addCircum('ol')">Ol</button>
+	<button id="list" title="Alt + L" onclick="addCircum('li')">Li</button>
+	<button id="img" onclick="insertImg()">Img</button>
+	<button id="br" title="Alt + B" onclick="insEnt('<br>')">Br</button>
+	<button id="em" title="Alt + T" onclick="insEnt('&emsp;')">Tab</button>
+	<button id="sp" title="Alt + N" onclick="insEnt('&nbsp;')">Space</button>
+	<button id="class" title="Alt + J" onclick="insEnt(' class=""')">Class</button>
+	<button id="ttl" title="Alt + I" onclick="insEnt(' title=""')">Title</button>
+	<br>
+	<button id="code" title="Alt + C" onclick="code()">Code</button>
+	<button id="kbd" onclick="addCircum('kbd')">Kbd</button>
+	<button id="samp" onclick="addCircum('samp')">Samp</button>
+	<button id="sup" onclick="addCircum('sup')">Sup</button>
+	<button id="sub" onclick="addCircum('sub')">Sub</button>
+	<button id="bdi" onclick="addCircum('bdi')">Bdi</button>
+	<button id="bdo" onclick="addCircum('bdo')">Bdo</button>
+	<br><br>
+	<label for="colorWell"><p id="test">請選擇字體顏色</p></label>
+	<input type="color" value="#ff0000" id="colorWell">
+	<br>
+	<button id="font" onclick="addCF('red')"><font color="red"><strong><i>A</i></strong></font></button>
+	<button id="font" onclick="addCF('green')"><font color="green"><strong><i>A</i></strong></font></button>
+	<button id="font" onclick="addCF('blue')"><font color="blue"><strong><i>A</i></strong></font></button>
+	<button id="font" onclick="addCF('magenta')"><font color="magenta"><strong><i>A</i></strong></font></button>
+	<button id="font" onclick="addCF('lime')"><font color="lime"><strong><i>A</i></strong></font></button>
+	<button id="font" onclick="addCF('cyan')"><font color="cyan"><strong><i>A</i></strong></font></button>
+	<br><br>
+	<button id="font" onclick="addCircum('strong')"><font><strong>A</strong></font></button>
+	<button id="font" onclick="addCircum('i')"><font><i>A</i></font></button>
+	<button id="font" onclick="addCircum('ins')"><font><ins>A</ins></font></button>
+	<button id="font" onclick="addCircum('del')"><font><del>A</del></font></button>
+	<br><br>
+</div>
+<div id="gn" class="unc" style="visibility: hidden;">
+	<div align="right" class="unc">
+		<button href="javascript:void(0)" class="closebtn" onclick="closeGNav()">
+		<i class="fa fa-remove"></i>
+		</button>
+	</div>
+	<button onclick="typeinput('Ὰ')">Ὰ</button>
+	<button onclick="typeinput('Ὲ')">Ὲ</button>
+	<button onclick="typeinput('Ὴ')">Ὴ</button>
+	<button onclick="typeinput('Ὶ')">Ὶ</button>
+	<button onclick="typeinput('Ὸ')">Ὸ</button>
+	<button onclick="typeinput('Ὺ')">Ὺ</button>
+	<button onclick="typeinput('Ὼ')">Ὼ</button>
+	<br>
+	<button onclick="typeinput('ὰ')">ὰ</button>
+	<button onclick="typeinput('ὲ')">ὲ</button>
+	<button onclick="typeinput('ὴ')">ὴ</button>
+	<button onclick="typeinput('ὶ')">ὶ</button>
+	<button onclick="typeinput('ὸ')">ὸ</button>
+	<button onclick="typeinput('ὺ')">ὺ</button>
+	<button onclick="typeinput('ὼ')">ὼ</button>
+	<br><br>
+	<button onclick="typeinput('ᾶ')">ᾶ</button>
+	<button onclick="typeinput('ῆ')">ῆ</button>
+	<button onclick="typeinput('ῖ')">ῖ</button>
+	<button onclick="typeinput('ῦ')">ῦ</button>
+	<button onclick="typeinput('ῶ')">ῶ</button>
+	<button onclick="typeinput('ῗ')">ῗ</button>
+	<button onclick="typeinput('ῧ')">ῧ</button>
+	<button onclick="typeinput('ῒ')">ῒ</button>
+	<button onclick="typeinput('ῢ')">ῢ</button>
+	<br>
+	<button onclick="typeinput('ᾷ')">ᾷ</button>
+	<button onclick="typeinput('ῇ')">ῇ</button>
+	<button onclick="typeinput('ῷ')">ῷ</button>
+	<button onclick="typeinput('ᾴ')">ᾴ</button>
+	<button onclick="typeinput('ῄ')">ῄ</button>
+	<button onclick="typeinput('ῴ')">ῴ</button>
+	<button onclick="typeinput('ᾲ')">ᾲ</button>
+	<button onclick="typeinput('ῂ')">ῂ</button>
+	<button onclick="typeinput('ῲ')">ῲ</button>
+	<br><br>
+	<button onclick="typeinput('ᾼ')">ᾼ</button>
+	<button onclick="typeinput('ῌ')">ῌ</button>
+	<button onclick="typeinput('ῼ')">ῼ</button>
+	<button onclick="typeinput('ᾈ')">ᾈ</button>
+	<button onclick="typeinput('ᾘ')">ᾘ</button>
+	<button onclick="typeinput('ᾨ')">ᾨ</button>
+	<button onclick="typeinput('ᾉ')">ᾉ</button>
+	<button onclick="typeinput('ᾙ')">ᾙ</button>
+	<button onclick="typeinput('ᾩ')">ᾩ</button>
+	<br>
+	<button onclick="typeinput('ᾳ')">ᾳ</button>
+	<button onclick="typeinput('ῃ')">ῃ</button>
+	<button onclick="typeinput('ῳ')">ῳ</button>
+	<button onclick="typeinput('ᾀ')">ᾀ</button>
+	<button onclick="typeinput('ᾐ')">ᾐ</button>
+	<button onclick="typeinput('ᾠ')">ᾠ</button>
+	<button onclick="typeinput('ᾁ')">ᾁ</button>
+	<button onclick="typeinput('ᾑ')">ᾑ</button>
+	<button onclick="typeinput('ᾡ')">ᾡ</button>
+	<br><br>
+	<button onclick="typeinput('Ἀ')">Ἀ</button>
+	<button onclick="typeinput('Ἐ')">Ἐ</button>
+	<button onclick="typeinput('Ἠ')">Ἠ</button>
+	<button onclick="typeinput('Ἰ')">Ἰ</button>
+	<button onclick="typeinput('Ὀ')">Ὀ</button>
+	<button onclick="typeinput('Ὠ')">Ὠ</button>
+	<button onclick="typeinput('Ἁ')">Ἁ</button>
+	<button onclick="typeinput('Ἑ')">Ἑ</button>
+	<button onclick="typeinput('Ἡ')">Ἡ</button>
+	<button onclick="typeinput('Ἱ')">Ἱ</button>
+	<button onclick="typeinput('Ὁ')">Ὁ</button>
+	<button onclick="typeinput('Ὑ')">Ὑ</button>
+	<button onclick="typeinput('Ὡ')">Ὡ</button>
+	<br>
+	<button onclick="typeinput('ἀ')">ἀ</button>
+	<button onclick="typeinput('ἐ')">ἐ</button>
+	<button onclick="typeinput('ἠ')">ἠ</button>
+	<button onclick="typeinput('ἰ')">ἰ</button>
+	<button onclick="typeinput('ὀ')">ὀ</button>
+	<button onclick="typeinput('ὐ')">ὐ</button>
+	<button onclick="typeinput('ὠ')">ὠ</button>
+	<button onclick="typeinput('ἁ')">ἁ</button>
+	<button onclick="typeinput('ἑ')">ἑ</button>
+	<button onclick="typeinput('ἡ')">ἡ</button>
+	<button onclick="typeinput('ἱ')">ἱ</button>
+	<button onclick="typeinput('ὁ')">ὁ</button>
+	<button onclick="typeinput('ὑ')">ὑ</button>
+	<button onclick="typeinput('ὡ')">ὡ</button>
+	<br><br>
+	<button onclick="typeinput('Ἄ')">Ἄ</button>
+	<button onclick="typeinput('Ἔ')">Ἔ</button>
+	<button onclick="typeinput('Ἤ')">Ἤ</button>
+	<button onclick="typeinput('Ἴ')">Ἴ</button>
+	<button onclick="typeinput('Ὄ')">Ὄ</button>
+	<button onclick="typeinput('Ὤ')">Ὤ</button>
+	<button onclick="typeinput('Ἅ')">Ἅ</button>
+	<button onclick="typeinput('Ἕ')">Ἕ</button>
+	<button onclick="typeinput('Ἥ')">Ἥ</button>
+	<button onclick="typeinput('Ἵ')">Ἵ</button>
+	<button onclick="typeinput('Ὅ')">Ὅ</button>
+	<button onclick="typeinput('Ὕ')">Ὕ</button>
+	<button onclick="typeinput('Ὥ')">Ὥ</button>
+	<br>
+	<button onclick="typeinput('ἄ')">ἄ</button>
+	<button onclick="typeinput('ἔ')">ἔ</button>
+	<button onclick="typeinput('ἤ')">ἤ</button>
+	<button onclick="typeinput('ἴ')">ἴ</button>
+	<button onclick="typeinput('ὄ')">ὄ</button>
+	<button onclick="typeinput('ὔ')">ὔ</button>
+	<button onclick="typeinput('ὤ')">ὤ</button>
+	<button onclick="typeinput('ἅ')">ἅ</button>
+	<button onclick="typeinput('ἕ')">ἕ</button>
+	<button onclick="typeinput('ἥ')">ἥ</button>
+	<button onclick="typeinput('ἵ')">ἵ</button>
+	<button onclick="typeinput('ὅ')">ὅ</button>
+	<button onclick="typeinput('ὕ')">ὕ</button>
+	<button onclick="typeinput('ὥ')">ὥ</button>
+	<br><br>
+	<button onclick="typeinput('Ἂ')">Ἂ</button>
+	<button onclick="typeinput('Ἒ')">Ἒ</button>
+	<button onclick="typeinput('Ἢ')">Ἢ</button>
+	<button onclick="typeinput('Ἲ')">Ἲ</button>
+	<button onclick="typeinput('Ὂ')">Ὂ</button>
+	<button onclick="typeinput('Ὢ')">Ὢ</button>
+	<button onclick="typeinput('Ἃ')">Ἃ</button>
+	<button onclick="typeinput('Ἓ')">Ἓ</button>
+	<button onclick="typeinput('Ἣ')">Ἣ</button>
+	<button onclick="typeinput('Ἳ')">Ἳ</button>
+	<button onclick="typeinput('Ὃ')">Ὃ</button>
+	<button onclick="typeinput('Ὓ')">Ὓ</button>
+	<button onclick="typeinput('Ὣ')">Ὣ</button>
+	<br>
+	<button onclick="typeinput('ἂ')">ἂ</button>
+	<button onclick="typeinput('ἒ')">ἒ</button>
+	<button onclick="typeinput('ἢ')">ἢ</button>
+	<button onclick="typeinput('ἲ')">ἲ</button>
+	<button onclick="typeinput('ὂ')">ὂ</button>
+	<button onclick="typeinput('ὒ')">ὒ</button>
+	<button onclick="typeinput('ὢ')">ὢ</button>
+	<button onclick="typeinput('ἃ')">ἃ</button>
+	<button onclick="typeinput('ἓ')">ἓ</button>
+	<button onclick="typeinput('ἣ')">ἣ</button>
+	<button onclick="typeinput('ἳ')">ἳ</button>
+	<button onclick="typeinput('ὃ')">ὃ</button>
+	<button onclick="typeinput('ὓ')">ὓ</button>
+	<button onclick="typeinput('ὣ')">ὣ</button>
+	<br><br>
+	<button onclick="typeinput('Ἆ')">Ἆ</button>
+	<button onclick="typeinput('Ἦ')">Ἦ</button>
+	<button onclick="typeinput('Ἶ')">Ἶ</button>
+	<button onclick="typeinput('Ὦ')">Ὦ</button>
+	<button onclick="typeinput('Ἇ')">Ἇ</button>
+	<button onclick="typeinput('Ἧ')">Ἧ</button>
+	<button onclick="typeinput('Ἷ')">Ἷ</button>
+	<button onclick="typeinput('Ὗ')">Ὗ</button>
+	<button onclick="typeinput('Ὧ')">Ὧ</button>
+	<br>
+	<button onclick="typeinput('ἆ')">ἆ</button>
+	<button onclick="typeinput('ἦ')">ἦ</button>
+	<button onclick="typeinput('ἶ')">ἶ</button>
+	<button onclick="typeinput('ὖ')">ὖ</button>
+	<button onclick="typeinput('ὦ')">ὦ</button>
+	<button onclick="typeinput('ἇ')">ἇ</button>
+	<button onclick="typeinput('ἧ')">ἧ</button>
+	<button onclick="typeinput('ἷ')">ἷ</button>
+	<button onclick="typeinput('ὗ')">ὗ</button>
+	<button onclick="typeinput('ὧ')">ὧ</button>
+	<br><br>
+</div>
+<div id="sn" class="unc" style="visibility: hidden;">
+	<div align="right" class="unc">
+		<button href="javascript:void(0)" class="closebtn" onclick="closeSNav()">
+		<i class="fa fa-remove"></i>
+		</button>
+	</div>
+	<button onclick="typeinput('А́')">А́</button>
+	<button onclick="typeinput('Е́')">Е́</button>
+	<button onclick="typeinput('И́')">И́</button>
+	<button onclick="typeinput('О́')">О́</button>
+	<button onclick="typeinput('У́')">У́</button>
+	<button onclick="typeinput('Ы́')">Ы́</button>
+	<button onclick="typeinput('Э́')">Э́</button>
+	<button onclick="typeinput('Ю́')">Ю́</button>
+	<button onclick="typeinput('Я́')">Я́</button>
+	<br>
+	<button onclick="typeinput('а́')">а́</button>
+	<button onclick="typeinput('е́')">е́</button>
+	<button onclick="typeinput('и́')">и́</button>
+	<button onclick="typeinput('о́')">о́</button>
+	<button onclick="typeinput('у́')">у́</button>
+	<button onclick="typeinput('ы́')">ы́</button>
+	<button onclick="typeinput('э́')">э́</button>
+	<button onclick="typeinput('ю́')">ю́</button>
+	<button onclick="typeinput('я́')">я́</button>
+	<br><br>
+	<button onclick="typeinput('І')">І</button>
+	<button onclick="typeinput('Ї')">Ї</button>
+	<button onclick="typeinput('Ў')">Ў</button>
+	<button onclick="typeinput('Є')">Є</button>
+	<button onclick="typeinput('Ѷ')">Ѷ</button>
+	<button onclick="typeinput('Ѣ')">Ѣ</button>
+	<button onclick="typeinput('Ꙋ')">Ꙋ</button>
+	<button onclick="typeinput('Ѧ')">Ѧ</button>
+	<button onclick="typeinput('Ѫ')">Ѫ</button>
+	<br>
+	<button onclick="typeinput('і')">і</button>
+	<button onclick="typeinput('ї')">ї</button>
+	<button onclick="typeinput('ў')">ў</button>
+	<button onclick="typeinput('є')">є</button>
+	<button onclick="typeinput('ѷ')">ѷ</button>
+	<button onclick="typeinput('ѣ')">ѣ</button>
+	<button onclick="typeinput('ꙋ')">ꙋ</button>
+	<button onclick="typeinput('ѧ')">ѧ</button>
+	<button onclick="typeinput('ѫ')">ѫ</button>
+	<br><br>
+	<button onclick="typeinput('Ꙗ')">Ꙗ</button>
+	<button onclick="typeinput('Ѥ')">Ѥ</button>
+	<button onclick="typeinput('Ѩ')">Ѩ</button>
+	<button onclick="typeinput('Ѭ')">Ѭ</button>
+	<button onclick="typeinput('Ꙓ')">Ꙓ</button>
+	<br>
+	<button onclick="typeinput('ꙗ')">ꙗ</button>
+	<button onclick="typeinput('ѥ')">ѥ</button>
+	<button onclick="typeinput('ѩ')">ѩ</button>
+	<button onclick="typeinput('ѭ')">ѭ</button>
+	<button onclick="typeinput('ꙓ')">ꙓ</button>
+	<br><br>
+	<button onclick="typeinput('Ґ')">Ґ</button>
+	<button onclick="typeinput('Ѓ')">Ѓ</button>
+	<button onclick="typeinput('Ќ')">Ќ</button>
+	<button onclick="typeinput('Ђ')">Ђ</button>
+	<button onclick="typeinput('Ћ')">Ћ</button>
+	<button onclick="typeinput('Џ')">Џ</button>
+	<button onclick="typeinput('Ј')">Ј</button>
+	<button onclick="typeinput('Ѕ')">Ѕ</button>
+	<button onclick="typeinput('Љ')">Љ</button>
+	<button onclick="typeinput('Њ')">Њ</button>
+	<br>
+	<button onclick="typeinput('ґ')">ґ</button>
+	<button onclick="typeinput('ѓ')">ѓ</button>
+	<button onclick="typeinput('ќ')">ќ</button>
+	<button onclick="typeinput('ђ')">ђ</button>
+	<button onclick="typeinput('ћ')">ћ</button>
+	<button onclick="typeinput('џ')">џ</button>
+	<button onclick="typeinput('ј')">ј</button>
+	<button onclick="typeinput('ѕ')">ѕ</button>
+	<button onclick="typeinput('љ')">љ</button>
+	<button onclick="typeinput('њ')">њ</button>
+	<br><br>
+</div>
+<div id="lr" class="unc">
+	<button style="font-size:10px;cursor:pointer" onclick="openLNav()">特殊字母鍵盤&#9776;</button>
+</div>
+<div id="ln" class="unc" style="visibility: hidden;">
+	<div align="right" class="unc">
+		<button href="javascript:void(0)" class="closebtn" onclick="closeLNav()">
+		<i class="fa fa-remove"></i>
+		</button>
+	</div>
+	<button onclick="typeinput('Á')">Á</button>
+	<button onclick="typeinput('É')">É</button>
+	<button onclick="typeinput('Í')">Í</button>
+	<button onclick="typeinput('Ó')">Ó</button>
+	<button onclick="typeinput('Ú')">Ú</button>
+	<button onclick="typeinput('Ý')">Ý</button>
+	<button onclick="typeinput('Ĺ')">Ĺ</button>
+	<button onclick="typeinput('Ŕ')">Ŕ</button>
+	<br>
+	<button onclick="typeinput('á')">á</button>
+	<button onclick="typeinput('é')">é</button>
+	<button onclick="typeinput('í')">í</button>
+	<button onclick="typeinput('ó')">ó</button>
+	<button onclick="typeinput('ú')">ú</button>
+	<button onclick="typeinput('ý')">ý</button>
+	<button onclick="typeinput('ĺ')">ĺ</button>
+	<button onclick="typeinput('ŕ')">ŕ</button>
+	<br><br>
+	<button onclick="typeinput('À')">À</button>
+	<button onclick="typeinput('È')">È</button>
+	<button onclick="typeinput('Ì')">Ì</button>
+	<button onclick="typeinput('Ò')">Ò</button>
+	<button onclick="typeinput('Ù')">Ù</button>
+	<button onclick="typeinput('Â')">Â</button>
+	<button onclick="typeinput('Ê')">Ê</button>
+	<button onclick="typeinput('Î')">Î</button>
+	<button onclick="typeinput('Ô')">Ô</button>
+	<button onclick="typeinput('Û')">Û</button>
+	<br>
+	<button onclick="typeinput('à')">à</button>
+	<button onclick="typeinput('è')">è</button>
+	<button onclick="typeinput('ì')">ì</button>
+	<button onclick="typeinput('ò')">ò</button>
+	<button onclick="typeinput('ù')">ù</button>
+	<button onclick="typeinput('â')">â</button>
+	<button onclick="typeinput('ê')">ê</button>
+	<button onclick="typeinput('î')">î</button>
+	<button onclick="typeinput('ô')">ô</button>
+	<button onclick="typeinput('û')">û</button>
+	<br><br>
+	<button onclick="typeinput('Ä')">Ä</button>
+	<button onclick="typeinput('Ë')">Ë</button>
+	<button onclick="typeinput('Ï')">Ï</button>
+	<button onclick="typeinput('Ö')">Ö</button>
+	<button onclick="typeinput('Ő')">Ő</button>
+	<button onclick="typeinput('Ü')">Ü</button>
+	<button onclick="typeinput('Ű')">Ű</button>
+	<button onclick="typeinput('Ÿ')">Ÿ</button>
+	<br>
+	<button onclick="typeinput('ä')">ä</button>
+	<button onclick="typeinput('ë')">ë</button>
+	<button onclick="typeinput('ï')">ï</button>
+	<button onclick="typeinput('ö')">ö</button>
+	<button onclick="typeinput('ő')">ő</button>
+	<button onclick="typeinput('ü')">ü</button>
+	<button onclick="typeinput('ű')">ű</button>
+	<button onclick="typeinput('ÿ')">ÿ</button>
+	<br><br>
+	<button onclick="typeinput('Ā')">Ā</button>
+	<button onclick="typeinput('Ã')">Ã</button>
+	<button onclick="typeinput('Å')">Å</button>
+	<button onclick="typeinput('Æ')">Æ</button>
+	<button onclick="typeinput('Ą')">Ą</button>
+	<button onclick="typeinput('Ē')">Ē</button>
+	<button onclick="typeinput('Ě')">Ě</button>
+	<button onclick="typeinput('Ė')">Ė</button>
+	<button onclick="typeinput('Ę')">Ę</button>
+	<button onclick="typeinput('Ī')">Ī</button>
+	<button onclick="typeinput('Į')">Į</button>
+	<br>
+	<button onclick="typeinput('ā')">ā</button>
+	<button onclick="typeinput('ã')">ã</button>
+	<button onclick="typeinput('å')">å</button>
+	<button onclick="typeinput('æ')">æ</button>
+	<button onclick="typeinput('ą')">ą</button>
+	<button onclick="typeinput('ē')">ē</button>
+	<button onclick="typeinput('ě')">ě</button>
+	<button onclick="typeinput('ė')">ė</button>
+	<button onclick="typeinput('ę')">ę</button>
+	<button onclick="typeinput('ī')">ī</button>
+	<button onclick="typeinput('į')">į</button>
+	<br><br>
+	<button onclick="typeinput('Ō')">Ō</button>
+	<button onclick="typeinput('Õ')">Õ</button>
+	<button onclick="typeinput('Ø')">Ø</button>
+	<button onclick="typeinput('Œ')">Œ</button>
+	<button onclick="typeinput('Ū')">Ū</button>
+	<button onclick="typeinput('Ų')">Ų</button>
+	<button onclick="typeinput('Ů')">Ů</button>
+	<button onclick="typeinput('Ŵ')">Ŵ</button>
+	<button onclick="typeinput('Ŷ')">Ŷ</button>
+	<br>
+	<button onclick="typeinput('ō')">ō</button>
+	<button onclick="typeinput('õ')">õ</button>
+	<button onclick="typeinput('ø')">ø</button>
+	<button onclick="typeinput('œ')">œ</button>
+	<button onclick="typeinput('ū')">ū</button>
+	<button onclick="typeinput('ų')">ų</button>
+	<button onclick="typeinput('ů')">ů</button>
+	<button onclick="typeinput('ŵ')">ŵ</button>
+	<button onclick="typeinput('ŷ')">ŷ</button>
+	<br><br>
+	<button onclick="typeinput('Ç')">Ç</button>
+	<button onclick="typeinput('Ć')">Ć</button>
+	<button onclick="typeinput('Č')">Č</button>
+	<button onclick="typeinput('Þ')">Þ</button>
+	<button onclick="typeinput('Ð')">Ð</button>
+	<button onclick="typeinput('Ď')">Ď</button>
+	<button onclick="typeinput('Ł')">Ł</button>
+	<button onclick="typeinput('Ľ')">Ľ</button>
+	<button onclick="typeinput('Ń')">Ń</button>
+	<button onclick="typeinput('Ň')">Ň</button>
+	<button onclick="typeinput('Ñ')">Ñ</button>
+	<br>
+	<button onclick="typeinput('ç')">ç</button>
+	<button onclick="typeinput('ć')">ć</button>
+	<button onclick="typeinput('č')">č</button>
+	<button onclick="typeinput('þ')">þ</button>
+	<button onclick="typeinput('ð')">ð</button>
+	<button onclick="typeinput('ď')">ď</button>
+	<button onclick="typeinput('ł')">ł</button>
+	<button onclick="typeinput('ľ')">ľ</button>
+	<button onclick="typeinput('ń')">ń</button>
+	<button onclick="typeinput('ň')">ň</button>
+	<button onclick="typeinput('ñ')">ñ</button>
+	<br><br>
+	<button onclick="typeinput('Ř')">Ř</button>
+	<button onclick="typeinput('Ś')">Ś</button>
+	<button onclick="typeinput('Š')">Š</button>
+	<button onclick="typeinput('Ť')">Ť</button>
+	<button onclick="typeinput('Ź')">Ź</button>
+	<button onclick="typeinput('Ż')">Ż</button>
+	<button onclick="typeinput('Ž')">Ž</button>
+	<button onclick="typeinput('ẞ')">ẞ</button>
+	<br>
+	<button onclick="typeinput('ř')">ř</button>
+	<button onclick="typeinput('ś')">ś</button>
+	<button onclick="typeinput('š')">š</button>
+	<button onclick="typeinput('ť')">ť</button>
+	<button onclick="typeinput('ź')">ź</button>
+	<button onclick="typeinput('ż')">ż</button>
+	<button onclick="typeinput('ž')">ž</button>
+	<button onclick="typeinput('ß')">ß</button>
+	<br><br>
+	<button style="font-size:10px;cursor:pointer" onclick="openGNav()">古希臘元音</button>
+	<button style="font-size:10px;cursor:pointer" onclick="openSNav()">西里爾字母</button>
+	<br><br>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#cn,#ln,#gn,#sn").addClass("boxDiv keyDiv");
+	});
+	dragElement(document.getElementById("cn"));
+	dragElement(document.getElementById("ln"));
+	dragElement(document.getElementById("gn"));
+	dragElement(document.getElementById("sn"));
+	function dragElement(elmnt) {
+		var pos1 = 0,
+			pos2 = 0,
+			pos3 = 0,
+			pos4 = 0;
+		if (document.getElementById(elmnt.id + "header")) {
+			// if present, the header is where you move the DIV from:
+			document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+		} else {
+			// otherwise, move the DIV from anywhere inside the DIV:
+			elmnt.onmousedown = dragMouseDown;
+		}
+		function dragMouseDown(e) {
+			e = e || window.event;
+			e.preventDefault();
+			// get the mouse cursor position at startup:
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			document.onmouseup = closeDragElement;
+			// call a function whenever the cursor moves:
+			document.onmousemove = elementDrag;
+		}
+		function elementDrag(e) {
+			e = e || window.event;
+			e.preventDefault();
+			// calculate the new cursor position:
+			pos1 = pos3 - e.clientX;
+			pos2 = pos4 - e.clientY;
+			pos3 = e.clientX;
+			pos4 = e.clientY;
+			// set the element's new position:
+			elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+			elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+		}
+		function closeDragElement() {
+			// stop moving when mouse button is released:
+			document.onmouseup = null;
+			document.onmousemove = null;
+		}
+	}
+	/*快速鍵盤按鈕*/
+	function openCNav() {
+		if (document.getElementById("cn").style.visibility == "hidden") {
+			document.getElementById("cn").style.visibility = "visible";
+		} else {
+			document.getElementById("cn").style.visibility = "hidden";
+		}
+	}
+
+	function closeCNav() {
+		document.getElementById("cn").style.visibility = "hidden";
+	}
+	function openLNav() {
+		if (document.getElementById("ln").style.visibility == "hidden") {
+			document.getElementById("ln").style.visibility = "visible";
+		} else {
+			document.getElementById("ln").style.visibility = "hidden";
+		}
+	}
+	function closeLNav() {
+		document.getElementById("ln").style.visibility = "hidden";
+	}
+	function openGNav() {
+		if (document.getElementById("gn").style.visibility == "hidden") {
+			document.getElementById("gn").style.visibility = "visible";
+		} else {
+			document.getElementById("gn").style.visibility = "hidden";
+		}
+	}
+	function closeGNav() {
+		document.getElementById("gn").style.visibility = "hidden";
+	}
+	function openSNav() {
+		if (document.getElementById("sn").style.visibility == "hidden") {
+			document.getElementById("sn").style.visibility = "visible";
+		} else {
+			document.getElementById("sn").style.visibility = "hidden";
+		}
+	}
+	function closeSNav() {
+		document.getElementById("sn").style.visibility = "hidden";
+	}
+</script>
