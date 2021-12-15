@@ -15,22 +15,22 @@
   HTML實體鍵盤裡的常用元素配有快速鍵：
 
     單獨實體：
-      Alt + b = '<br>'
-      Alt + t = '&emsp;'
-      Alt + n = '&nbsp;'
-      Alt + i = ' title=""'
-      Alt + j = ' class=""'
+      Alt + b = <br>
+      Alt + t = &emsp;
+      Alt + n = &nbsp;
+      Alt + i =  title=""
+      Alt + j =  class=""
 
     環綴實體：
-      Alt + q = '<blockquote></blockquote>'
-      Alt + p = '<p></p>'
-      Alt + u = '<ul></ul>'
-      Alt + o = '<ol></ol>'
-      Alt + l = '<li></li>'
-      Alt + c = '<code></code>'
-      Alt + d = '<div></div>'
-      Alt + f = '<font></font>'
-      Alt + a = '<a href=""></a>'
+      Alt + q = <blockquote></blockquote>
+      Alt + p = <p></p>
+      Alt + u = <ul></ul>
+      Alt + o = <ol></ol>
+      Alt + l = <li></li>
+      Alt + c = <code></code>
+      Alt + d = <div></div>
+      Alt + f = <font></font>
+      Alt + a = <a href=""></a>
 
   所謂的環綴實體指的是可以先選取字段，然後將其包裹起來的實體元素。
   例如，在textarea中打出：Mary has a little lamb.幾個字。
