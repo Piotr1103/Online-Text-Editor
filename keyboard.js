@@ -1,4 +1,7 @@
-$(document).delegate('#pcont','keydown',function(e) {
+//將這裡的值改成自己textarea的id
+$textarea = '#pcont, #t_cont';
+
+$(document).delegate($textarea,'keydown',function(e) {
 	var keyCode = e.keyCode || e.which;
 	//取得光標位置下標
 	let start = this.selectionStart;
@@ -120,21 +123,20 @@ function keydown(evt) {
 	}
 }
 
-/*各類HTML實體快速鍵*/
 function typeinput(char) {
 	var char = char;
-	const textarea = document.getElementById('pcont');
-	const insertStartPoint = textarea.selectionStart;
-	const insertEndPoint = textarea.selectionEnd;
-	let value = textarea.value;
-	value = value.slice(0, insertStartPoint) + char + value.slice(insertEndPoint);
-	textarea.value = value;
-	textarea.focus();
-	textarea.selectionStart = textarea.selectionEnd = insertStartPoint + 1;
+	let textArea = $($textarea);
+	let start = textArea[0].selectionStart;
+	let end = textArea[0].selectionEnd;
+	let value = textArea[0].value;
+	value = value.slice(0, start) + char + value.slice(end);
+	textArea[0].value = value;
+	textArea[0].focus();
+	textArea[0].selectionStart = textArea[0].selectionEnd = start + 1;
 }
 
 function addCircum(circumfix,prop,ptr){
-	let textArea = $('#pcont');
+	let textArea = $($textarea);
 	let start = textArea[0].selectionStart;
 	let end = textArea[0].selectionEnd;
 	let cont = ((start==end && end==0)?"\n\t\n":textArea.val().substring(start,end));
@@ -149,9 +151,9 @@ function addCircum(circumfix,prop,ptr){
 }
 
 function insEnt(entity){
-	const textArea = $('#pcont');
-	const start = textArea[0].selectionStart;
-	const end = textArea[0].selectionEnd;
+	let textArea = $($textarea);
+	let start = textArea[0].selectionStart;
+	let end = textArea[0].selectionEnd;
 	let value = textArea[0].value;
 	value = value.slice(0,start) + entity + value.slice(end);
 	textArea.val(value);
@@ -164,12 +166,12 @@ function addCF(color){
 }
 
 function insertImg(){
-	const textarea = document.getElementById('pcont');
-	const insertStartPoint = textarea.selectionStart;
-	const insertEndPoint = textarea.selectionEnd;
-	let value = textarea.value;
-	value = value.slice(0, insertStartPoint) + '<img src="" alt="" title="" border="">' + value.slice(insertEndPoint);
-	textarea.value = value;
-	textarea.focus();
-	textarea.selectionStart = textarea.selectionEnd = insertStartPoint + 10;
+	let textArea = $($textarea);
+	let start = textArea[0].selectionStart;
+	let end = textArea[0].selectionEnd;
+	let value = textArea[0].value;
+	value = value.slice(0, start) + '<img src="" alt="" title="" border="">' + value.slice(end);
+	textArea[0].value = value;
+	textArea[0].focus();
+	textArea[0].selectionStart = textArea[0].selectionEnd = start + 10;
 }
