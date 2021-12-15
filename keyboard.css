@@ -20,14 +20,14 @@
 
 #cn {
 	z-index: 99;
-	top: 400px;
-	left: 21px;
+	bottom: 5vh;
+	left: 5vw;
 }
 
 #ln {
 	z-index: 99;
-	top: 150px;
-	right: 21px;
+	bottom: 5vh;
+	right: 5vw;
 }
 
 #gn {
