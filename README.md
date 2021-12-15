@@ -16,8 +16,8 @@
 
     單獨實體：<br>
       Alt + b = &#60;br&#62;<br>
-      Alt + t = &emsp;<br>
-      Alt + n = &nbsp;<br>
+      Alt + t = &#38;emsp;<br>
+      Alt + n = &#38;nbsp;<br>
       Alt + i =  title=""<br>
       Alt + j =  class=""<br>
 
