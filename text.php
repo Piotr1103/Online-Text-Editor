@@ -25,7 +25,10 @@
 			<input type="hidden" name="action" value="wp">
 			<input type="submit" style="margin-left: 96%;" value="寫入">
 		</form>
-		<?php include 'keys.html'; ?>
+
+		<div align="center">
+			<?php include 'keys.html'; ?>
+		</div>
 
 	</body>
 </html>
