@@ -14,14 +14,14 @@
   被text.php引入後，網頁的左下角和右下角個會出現一個button，按下後就會出現可拖曳的軟鍵盤。
   HTML實體鍵盤裡的常用元素配有快速鍵：
 
-    單獨實體：
+    單獨實體：<br>
       Alt + b = &#60;br&#62;<br>
       Alt + t = &emsp;<br>
       Alt + n = &nbsp;<br>
       Alt + i =  title=""<br>
       Alt + j =  class=""<br>
 
-    環綴實體：
+    環綴實體：<br>
       Alt + q = &#60;blockquote&#62;&#60;/blockquote&#62;<br>
       Alt + p = &#60;p&#62;&#60;/p&#62;<br>
       Alt + u = &#60;ul&#62;&#60;/ul&#62;<br>
@@ -32,17 +32,17 @@
       Alt + f = &#60;font&#62;&#60;/font&#62;<br>
       Alt + a = &#60;a href=""&#62;&#60;/a&#62;<br>
 
-  所謂的環綴實體指的是可以先選取字段，然後將其包裹起來的實體元素。
-  例如，在textarea中打出：Mary has a little lamb.幾個字。
-  如果我想在lamb一詞周圍包上&#60;font&#62;&#60;/font&#62;，那麼先將lamb選取起來，然後透過軟鍵盤按下Font或者直接按下快速鍵Alt + f，便可將該詞包裹起來：&#60;font&#62;lamb&#60;/font&#62;。
-  
-  多行縮進：
-    選取多行然後按下Tab鍵。
+    所謂的環綴實體指的是可以先選取字段，然後將其包裹起來的實體元素。
+    例如，在textarea中打出：Mary has a little lamb.幾個字。
+    如果我想在lamb一詞周圍包上&#60;font&#62;&#60;/font&#62;，那麼先將lamb選取起來，然後透過軟鍵盤按下Font或者直接按下快速鍵Alt + f，便可將該詞包裹起來：&#60;font&#62;lamb&#60;/font&#62;。
+    
+    多行縮進：
+      選取多行然後按下Tab鍵。
 
-  多行反縮進：
-    選取多行然後按下Shift + Tab鍵。
+    多行反縮進：
+      選取多行然後按下Shift + Tab鍵。
 
-  特殊字母沒有搭配快速鍵。
+    特殊字母沒有搭配快速鍵。
 
 3. keyboard.js
   keyboard.js裡面定義了所有keys.html按鍵所需要的方法以及多行正反縮進的方法。
