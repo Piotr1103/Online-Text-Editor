@@ -15,22 +15,22 @@
   HTML實體鍵盤裡的常用元素配有快速鍵：
 
     單獨實體：
-      Alt + b = &#60;br&#62;
-      Alt + t = &emsp;
-      Alt + n = &nbsp;
-      Alt + i =  title=""
-      Alt + j =  class=""
+      Alt + b = &#60;br&#62;<br>
+      Alt + t = &emsp;<br>
+      Alt + n = &nbsp;<br>
+      Alt + i =  title=""<br>
+      Alt + j =  class=""<br>
 
     環綴實體：
-      Alt + q = &#60;blockquote&#62;&#60;/blockquote&#62;
-      Alt + p = &#60;p&#62;&#60;/p&#62;
-      Alt + u = &#60;ul&#62;&#60;/ul&#62;
-      Alt + o = &#60;ol&#62;&#60;/ol&#62;
-      Alt + l = &#60;li&#62;&#60;/li&#62;
-      Alt + c = &#60;code&#62;&#60;/code&#62;
-      Alt + d = &#60;div&#62;&#60;/div&#62;
-      Alt + f = &#60;font&#62;&#60;/font&#62;
-      Alt + a = &#60;a href=""&#62;&#60;/a&#62;
+      Alt + q = &#60;blockquote&#62;&#60;/blockquote&#62;<br>
+      Alt + p = &#60;p&#62;&#60;/p&#62;<br>
+      Alt + u = &#60;ul&#62;&#60;/ul&#62;<br>
+      Alt + o = &#60;ol&#62;&#60;/ol&#62;<br>
+      Alt + l = &#60;li&#62;&#60;/li&#62;<br>
+      Alt + c = &#60;code&#62;&#60;/code&#62;<br>
+      Alt + d = &#60;div&#62;&#60;/div&#62;<br>
+      Alt + f = &#60;font&#62;&#60;/font&#62;<br>
+      Alt + a = &#60;a href=""&#62;&#60;/a&#62;<br>
 
   所謂的環綴實體指的是可以先選取字段，然後將其包裹起來的實體元素。
   例如，在textarea中打出：Mary has a little lamb.幾個字。
