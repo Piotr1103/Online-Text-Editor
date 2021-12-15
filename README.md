@@ -15,26 +15,26 @@
   HTML實體鍵盤裡的常用元素配有快速鍵：
 
     單獨實體：
-      Alt + b = <br>
+      Alt + b = &#60;br&#62;
       Alt + t = &emsp;
       Alt + n = &nbsp;
       Alt + i =  title=""
       Alt + j =  class=""
 
     環綴實體：
-      Alt + q = <blockquote></blockquote>
-      Alt + p = <p></p>
-      Alt + u = <ul></ul>
-      Alt + o = <ol></ol>
-      Alt + l = <li></li>
-      Alt + c = <code></code>
-      Alt + d = <div></div>
-      Alt + f = <font></font>
-      Alt + a = <a href=""></a>
+      Alt + q = &#60;blockquote&#62;&#60;/blockquote&#62;
+      Alt + p = &#60;p&#62;&#60;/p&#62;
+      Alt + u = &#60;ul&#62;&#60;/ul&#62;
+      Alt + o = &#60;ol&#62;&#60;/ol&#62;
+      Alt + l = &#60;li&#62;&#60;/li&#62;
+      Alt + c = &#60;code&#62;&#60;/code&#62;
+      Alt + d = &#60;div&#62;&#60;/div&#62;
+      Alt + f = &#60;font&#62;&#60;/font&#62;
+      Alt + a = &#60;a href=""&#62;&#60;/a&#62;
 
   所謂的環綴實體指的是可以先選取字段，然後將其包裹起來的實體元素。
   例如，在textarea中打出：Mary has a little lamb.幾個字。
-  如果我想在lamb一詞周圍包上<font></font>，那麼先將lamb選取起來，然後透過軟鍵盤按下Font或者直接按下快速鍵Alt + f，便可將該詞包裹起來：<font>lamb</font>。
+  如果我想在lamb一詞周圍包上&#60;font&#62;&#60;/font&#62;，那麼先將lamb選取起來，然後透過軟鍵盤按下Font或者直接按下快速鍵Alt + f，便可將該詞包裹起來：&#60;font&#62;lamb&#60;/font&#62;。
   
   多行縮進：
     選取多行然後按下Tab鍵。
