@@ -46,6 +46,7 @@
 
 3. keyboard.js
   keyboard.js裡面定義了所有keys.html按鍵所需要的方法以及多行正反縮進的方法。
+  把要套用的textareaID加入第一行的$textarea變數中，有多個就用逗號隔開，該變數裡的#pcont是text.php中的textareaID，可視需求刪掉或修改。
 
 4. keyboard.css
   定義每個軟鍵盤的位置和樣式。
